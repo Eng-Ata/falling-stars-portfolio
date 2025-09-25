@@ -14,5 +14,5 @@ Built with **HTML**, **CSS**, and **JavaScript**.✨
 ## 💫 Preview
 ![Portfolio Screenshot](./images/preview.png)
 
-[Live Demo](https://eng-ata.github.io/falling-stars-portfolio/)
+[View Live Demo](https://eng-ata.github.io/falling-stars-portfolio/)
 
