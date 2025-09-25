@@ -1,4 +1,4 @@
-<img width="1919" height="925" alt="image" src="https://github.com/user-attachments/assets/dd9417f0-508b-4e90-a1e1-f6cb90f2560d" /># 🌠Falling Stars Portfolio 
+# 🌠Falling Stars Portfolio 
 A personal portfolio website featuring animated falling stars and glowing effects.  
 Built with **HTML**, **CSS**, and **JavaScript**.✨
 ## ✨ Features
@@ -12,7 +12,7 @@ Built with **HTML**, **CSS**, and **JavaScript**.✨
 ## 🌟 Built With
 💛HTML5  💛CSS3  💛JavaScript  
 ## 💫 Preview
-![Portfolio Screenshot]
+![Portfolio Screenshot](./images/preview.png)
 
-[Live Demo]()
+[Live Demo](https://eng-ata.github.io/falling-stars-portfolio/)
 
