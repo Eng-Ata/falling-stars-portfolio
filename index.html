@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>star portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="icon" type="image"
+    href="images/pngtree-cute-yellow-cartoon-star-clipart-illustration-png-image_14714901.png">
+</head>
+<!-- ------------------------------------------------------------------------------- -->
+
+<body>
+  <div class="star star0"></div>
+  <div class="star star90"></div>
+  <div class="star star120"></div>
+  <div class="box">
+    <div class="smallBox">
+      <div class="container">
+        <img src="./images/pngtree-cute-yellow-cartoon-star-clipart-illustration-png-image_14714901.png" alt="">
+        <h1>star</h1>
+        <div class="smallBox2">
+          <i class="fas fa-phone"></i><a href="tel:+98123456">0914123456</a>
+          <br>
+          <i class="fas fa-at	"></i><a class="font" href="mailto:eng.ata2003@gmail.com">eng.ata2003@gmail</a>
+          <i class="fas fa-paper-plane"></i><a href="https://t.me/@ata_2003" target="_blank" rel="noopener">ata_2003
+            @</a><br>
+          <i class="fab fa-github"></i><a href="https://github.com/Eng-Ata" target="_blank" rel="noopener">eng-ata</a>
+        </div>
+      </div>
+    </div>
+    <div class="box2">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis magni, autem commodi hic odio impedit
+        voluptatem. Quam corrupti ad saepe quis sint in. Earum, atque? Tempora magnam sequi quo exercitationem. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Similique nemo unde, neque alias itaque corrupti a tempore
+        esse sequi, magni libero eligendi voluptatem doloremque, laboriosam quia aut quidem!</p>
+      <div class="btn"><button>click me</button></div>
+    </div>
+  </div>
+  <div class="star" id='s1'></div>
+  <div class="star" id='s2'></div>
+  <div class="star star90" id='s3'></div>
+  <div class="star star120" id='s4'></div>
+
+  <script>
+    for (let i = 0; i < 200; i++) {
+      let star = document.createElement("div");
+      star.className = "star";
+      star.style.top = Math.random() * window.innerHeight + "px";
+      star.style.left = Math.random() * window.innerWidth + "px";
+      document.body.appendChild(star);
+    }
+    const btn = document.querySelector("button");
+
+    btn.addEventListener("click", () => {
+      const stars = document.querySelectorAll(".star");
+      stars.forEach((star, index) => {
+        setTimeout(() => {
+          star.classList.add("fall");
+        }, index * 50);
+      });
+    });
+
+  </script>
+
+</body>
+
+</html>
