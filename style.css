@@ -179,7 +179,7 @@ h1 {
 }
 
 .font {
-    font-size: 14px;
+    font-size: 13.96px;
 }
 
 .fas.fa-paper-plane {
@@ -223,4 +223,5 @@ button {
 
 .star.fall {
     animation: fall 5s linear forwards;
+
 }
